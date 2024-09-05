@@ -1,0 +1,12 @@
+
+
+- To run the program, type "python3 naiveBayes.py" in the terminal in the directory the code is located in
+
+MODIFICATIONS:
+- If you want to use posterior probabilities, set use_logarithm and use_laplace to False on lines 282 and 285 in naiveBayes.py
+- If you want to use log posterior probabilities, set use_logarithm to True and use_laplace to False on lines 282 and 285 in naiveBayes.py
+- If you want to use Laplace without graphing multiple alphas, set use_laplace to True on line 285 in naiveBayes.py, and set alpha on line 308.
+- If you want to use Laplace and change alpha ranging from 0.0001 to 1000, set use_laplace to True on line 285 and graph_results to True on line 287
+- If you want to adjust loading training set and testing set sizes, you may adjust accordingly on lines 134 and 143 
+
+- Accuracy, Confusion matrix, precision, and recall of both predicting on training set and testing set should be printed out in terminal if you are not graphing.
